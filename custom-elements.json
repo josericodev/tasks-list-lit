@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "src/tasks-list-lit.ts",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "TasksListLit",
+          "members": [
+            {
+              "kind": "field",
+              "name": "header",
+              "type": {
+                "text": "string"
+              },
+              "default": "'My app'"
+            }
+          ],
+          "superclass": {
+            "name": "LitElement",
+            "package": "lit"
+          },
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "TasksListLit",
+          "declaration": {
+            "name": "TasksListLit",
+            "module": "src/tasks-list-lit.ts"
+          }
+        }
+      ]
+    }
+  ]
+}
